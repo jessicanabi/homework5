@@ -83,6 +83,7 @@ footer{
 }
 
 .card {
+  flex-basis: 400px;
   margin: 12px;
   background: #fff;
   border-radius: 7px;
@@ -134,7 +135,12 @@ footer{
 /* Gallery! */
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    /*Your code here again.*/
 }
 
 .gallery > img{
