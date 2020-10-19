@@ -54,7 +54,10 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  /*Your code here.*/
+  from {
+    width: 25px;
+    height: auto;
+    /*Your code here.*/
 
 }
 
@@ -71,7 +74,10 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
-    /*Your code here.*/
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center/*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
   
 }
