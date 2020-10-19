@@ -90,8 +90,7 @@ footer{
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: center/*Your code here.*/
-    /*Don't forget to vertically and horizontally alight the card*/
+    justify-content: center;
   
 }
 
@@ -101,8 +100,6 @@ footer{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  /*Your code here.*/
-  /*Take a look at flex-basis*/
 
 }
 
@@ -149,9 +146,10 @@ footer{
 .gallery{
   min-height: 600px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-between;
+  align-items: center;
     /*Your code here again.*/
 }
 
@@ -175,7 +173,6 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   list-style: none;
   /*Your code here again.*/
 }
@@ -207,7 +204,6 @@ header{
   /* Navbar */
   header{
     flex-direction: row;
-    justify-content: space-between;
   }
 
   .nav_links{
