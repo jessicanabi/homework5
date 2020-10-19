@@ -162,10 +162,17 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav_links{
+  display: flec;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
   /*Your code here again.*/
 }
 
