@@ -57,12 +57,21 @@ footer{
   from {
     width: 25px;
     height: auto;
-    /*Your code here.*/
-
+  }
+  to { 
+    width: 420px;
+    height: auto;
+  }
 }
 
 @keyframes logo_wiggle{
-  /*Your code here.*/
+  from {
+    width: 25px;
+    height: auto;
+  }
+  to { 
+    width: 420px;
+    height: auto;
 
 } 
 
