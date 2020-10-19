@@ -173,7 +173,7 @@ header{
 }
 
 .nav_links{
-  display: flec;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   list-style: none;
