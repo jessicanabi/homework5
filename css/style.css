@@ -207,6 +207,7 @@ header{
   /* Navbar */
   header{
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links{
