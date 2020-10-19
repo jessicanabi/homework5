@@ -222,8 +222,21 @@ header{
   .card {
     flex-basis: 200px;
   }
-  /*Your code here again.*/
-  /*You will want four selectors*/  
+
+  body {
+    background-image: none;
+  }
+
+  .pricing{
+    align-items:flex-start;
+  }
+
+  .gallery {
+    display: none;
+  }
+  #gallergy {
+    display: none;
+  }
 }
 
 /*Your code here again.*/ 
